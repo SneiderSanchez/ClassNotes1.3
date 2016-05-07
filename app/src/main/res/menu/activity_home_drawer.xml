@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_tarea"
+            android:icon="@drawable/ic_menu_tareas"
+            android:title="Tareas" />
+        <item
+            android:id="@+id/nav_examenes"
+            android:icon="@drawable/ic_menu_examenes"
+            android:title="Examenes" />
+        <item
+            android:id="@+id/nav_materias"
+            android:icon="@drawable/ic_menu_materias"
+            android:title="Materias" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_calificar"
+                android:icon="@drawable/ic_menu_calificar"
+                android:title="Calificar" />
+            <item
+                android:id="@+id/nav_acercade"
+                android:icon="@drawable/ic_menu_acercade"
+                android:title="Acerca de" />
+        </menu>
+    </item>
+
+</menu>
